@@ -19,9 +19,7 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
-  for i in data[:colour][i]
-    puts data[:colour][i]
-  end
-end
+  puts data[:colour].values.flatten
+
 
 nyc_pigeon_organizer(pigeon_data)
