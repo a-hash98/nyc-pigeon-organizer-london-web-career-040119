@@ -19,7 +19,7 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
-  puts data[:colour]
+  puts data.values
 end
 
 puts nyc_pigeon_organizer(pigeon_data)
