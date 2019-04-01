@@ -22,5 +22,7 @@ def nyc_pigeon_organizer(data)
   puts data[:colour]
 end
 
+nyc_pigeon_organizer(data)
+
 
 nyc_pigeon_organizer(pigeon_data)
